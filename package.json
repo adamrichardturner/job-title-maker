@@ -6,20 +6,28 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@types/axios": "^0.14.0",
+    "aaxios": "^0.18.1",
+    "axios": "^1.5.1",
+    "debug": "^4.3.4",
+    "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "supports-color": "^9.4.0"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
     "postcss": "latest",
-    "tailwindcss": "latest"
+    "prettier": "^3.0.3",
+    "tailwindcss": "latest",
+    "typescript": "latest"
   }
 }
