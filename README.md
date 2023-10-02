@@ -1,8 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Linkedin Bio Generator
+
+This is a [Next.js](https://nextjs.org/) TypeScript project that integrates with OpenAI's [ChatGPT API](https://openai.com/blog/introducing-chatgpt-and-whisper-apis) to produce a humorous recommendation of a Linkedin Bio based on the user's input job title.
+
+The project was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and styled with Tailwind CSS. It utilises server side rendering via Next.js API routes to protect the API key.
+
+# Preview
+
+![](preview.png)
+
+# Live Website
+
+You can view this portfolio in its most up-to-date form at [https://adamrichardturner.dev](https://adamrichardturner.dev)
 
 ## Getting Started
 
-First, run the development server:
+Register for an API key with OpenAI's [ChatGPT API](https://openai.com/blog/introducing-chatgpt-and-whisper-apis) and ensure you have sufficient credits in your quota.
+
+In the project root directory store a **.env.local** file and save within it your ChatGPT API key as follows:
+
+```bash
+OPENAI_API_KEY="PUT_KEY_HERE"
+```
+
+Run the development server:
 
 ```bash
 npm run dev

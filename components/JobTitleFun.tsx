@@ -11,7 +11,6 @@ const JobTitleFun: React.FC<Props> = () => {
   const handleGenerate = async () => {
     try {
       const response = await axios.post('/api/jobtitle', { title: jobTitle })
-      console.log(response)
       if (response.data.title) {
         setFunJobTitle(response.data.title)
       } else {
