@@ -49,9 +49,9 @@ export default async function handler(
 
   try {
     const response: AxiosResponse<OpenAIResponse> = await axios.post(
-      'https://api.openai.com/v1/chat/completions',
+      'https://api.openai.com/v1/completions',
       {
-        model: 'gpt-4-1106-preview',
+        model: 'gpt-3.5-turbo-instruct',
         prompt: prompt,
         max_tokens: 50,
       },
