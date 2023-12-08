@@ -13,7 +13,7 @@
   "dependencies": {
     "@types/axios": "^0.14.0",
     "aaxios": "^0.18.1",
-    "axios": "^1.5.1",
+    "axios": "^1.6.2",
     "debug": "^4.3.4",
     "next": "latest",
     "react": "latest",
