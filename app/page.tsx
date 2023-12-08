@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Adam Turner | Web Developer</title>
+        <title>Linkedin Bio Generator</title>
         <meta
           name="description"
           content="Linkedin AI Bio Generator by Adam Turner"
